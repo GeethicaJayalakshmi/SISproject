@@ -11,7 +11,7 @@ namespace SISDB.util
     {
         public static SqlConnection GetConnection()
         {
-            string connStr = "Data Source=JAYASRI;Initial Catalog=SISDB;Integrated Security=True";
+            string connStr = "Data Source=LAPTOP-R19DI30G;Initial Catalog=SISDB;Integrated Security=True";
             return new SqlConnection(connStr);
         }
     }
